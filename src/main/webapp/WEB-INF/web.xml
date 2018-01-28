@@ -9,6 +9,7 @@
 	   	<param-name>contextConfigLocation</param-name>
 	   	<param-value>
 	   		classpath:jdbc/jdbcContext.xml
+	   		classpath:dax/WebServicesContext.xml
 	   	</param-value>
    </context-param>
    

@@ -10,7 +10,9 @@ import com.demo.repository.JdbcDataSource;
 
 @RestController
 public class DataSourceController implements ApplicationContextAware {
+	
     private ApplicationContext applicationContext;
+    
 	@RequestMapping(value = "/db-source")
 	public JdbcDataSource getDataSource() {
 		//applicationContext = new ClassPathXmlApplicationContext("jdbc\\jdbcContext.xml");
